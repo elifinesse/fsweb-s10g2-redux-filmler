@@ -9,8 +9,9 @@ import "./index.css";
 import { legacy_createStore as createStore } from "redux";
 import { Provider } from "react-redux";
 import reducer from "./reducers";
+import { newReducer } from "./reducers";
 
-const store = createStore(reducer);
+const store = createStore(newReducer);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
