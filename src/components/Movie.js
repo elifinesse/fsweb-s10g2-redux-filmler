@@ -13,12 +13,11 @@ const Movie = (props) => {
 
   const dispatch = useDispatch();
   const deleteMov = () => {
-    dispatch(deleteMovie(movie));
+    dispatch(deleteMovie(movie.id));
     push("/movies");
   };
   const favEkle = () => {
     dispatch(addFavorite(movie));
-    push("/movies");
   };
 
   return (
