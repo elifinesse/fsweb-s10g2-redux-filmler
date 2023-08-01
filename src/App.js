@@ -1,6 +1,6 @@
 import React from "react";
 
-import { UseSelector, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 import { Route, Switch, Redirect } from "react-router-dom";
 

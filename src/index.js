@@ -8,7 +8,6 @@ import "./index.css";
 
 import { legacy_createStore as createStore } from "redux";
 import { Provider } from "react-redux";
-import reducer from "./reducers";
 import { newReducer } from "./reducers";
 
 const store = createStore(newReducer);
